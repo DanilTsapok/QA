@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "assert": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.19.0",
+    "until": "^0.1.1"
+  },
+  "name": "lr7",
+  "version": "1.0.0",
+  "main": "script.spec.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
